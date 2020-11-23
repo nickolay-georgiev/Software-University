@@ -1,0 +1,37 @@
+function solve(input = []) {
+
+    let result = input.reduce((acc, value) => {
+
+        let [make, model, quantity] = value.split('|').map(x => x.trim());
+
+        if (!acc.get(make)) {
+
+            acc.set(make, new Map());
+        }
+
+        if (!acc.get(make).get(model)) {
+
+            acc.get(make).set(model, Number(quantity));
+
+        }
+        else {
+
+            acc.get(make).set(model, acc.get(make).get(model) + Number(quantity))
+        }
+
+        return acc;
+
+    }, new Map());
+
+    for (let [key, value] of result) {
+
+        console.log(key);
+
+        let test = Array.from(value);
+
+        for (i = 0; i < test.length; i++){
+
+            console.log(`###${test[i][0]} -> ${test[i][1]}`);            
+        }
+    }
+}

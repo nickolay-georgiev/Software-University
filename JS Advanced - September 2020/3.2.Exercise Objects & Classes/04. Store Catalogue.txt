@@ -1,0 +1,31 @@
+function solve(input = []) {
+
+    let result = input.reduce((acc, value) => {
+
+        let [product, price] = value.split(':').map(x => x.trim());
+
+        if (!acc[product[0]]) {
+
+            acc[product[0]] = [];
+        }
+
+        acc[product[0]].push(value);
+
+        return acc;
+
+    }, {})
+
+    Object.keys(result).sort().map(x => {
+
+        console.log(x);
+
+        let test = Object.values(result[x]).sort();
+
+        for (let index = 0; index < test.length; index++) {
+            
+            let data = test[index].split(':').map(x=>x.trim());
+            
+            console.log(`  ${data[0]}: ${data[1]}`); 
+        }            
+    })
+}
