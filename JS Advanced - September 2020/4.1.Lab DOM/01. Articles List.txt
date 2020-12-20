@@ -1,0 +1,23 @@
+function createArticle() {
+
+	let inputTitle = document.getElementById('createTitle');
+	let inputText = document.getElementById('createContent');
+
+	if (inputTitle.value !== '' && inputText.value != '') {
+		let articles = document.getElementById('articles');
+
+		let article = document.createElement('article')
+		let h3 = document.createElement("h3");
+		let p = document.createElement('p');
+
+		articles.appendChild(article);
+		article.appendChild(h3);
+		article.appendChild(p);
+
+		h3.textContent = inputTitle.value;
+		p.textContent = inputText.value;
+
+		inputTitle.value = '';
+		inputText.value = '';
+	}
+}
