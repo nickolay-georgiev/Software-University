@@ -1,0 +1,91 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+html{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(251, 251, 251);
+}
+
+.button{
+    border: 2px solid rgb(51, 51, 51);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding : 5px 10px;
+    border-radius: 222px;    
+    background: rgb(251, 251, 251);
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.button.fill{
+    background: rgb(51, 51, 51);
+    color:  rgb(251, 251, 251);
+
+}
+
+.button.fill.hover:hover{
+    color:  rgb(251, 251, 251);
+    background: rgb(0, 102, 0);
+    border-color: rgb(0, 102, 0);
+}
+
+.button.hover:hover{
+    background: rgb(251, 251, 251);
+    color: rgb(0, 102, 0);
+    border-color: rgb(0, 102, 0);
+}
+
+
+
+i{
+padding-right: 5px;
+}
+
+/* .main-div{
+    background: rgb(218, 216, 216);
+}
+
+button{
+    cursor: pointer;
+    border-radius: 222px;
+    padding: 10px;
+    font-size: 20x;
+    outline: none;
+    color: rgb(251, 251, 251);
+    background:rgb(51, 51, 51);
+}
+
+a{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 222px;
+    padding : 10px;
+    font-size: 20px;
+    color: rgb(251, 251, 251);
+    background:rgb(51, 51, 51);
+
+}
+
+div.first-row > a, 
+div.first-row > button.fill{
+    color: rgb(51, 51, 51);
+    background: transparent
+}
+
+.hover{
+    background : rgb(0, 102, 0);
+    color:rgb(251, 251, 251);
+}
+
+div.first-row button.hover{
+    background: rgb(251, 251, 251);
+    color:  rgb(0, 102, 0);;
+}
+
+i{
+    padding-right: 5px;
+    
+} */
