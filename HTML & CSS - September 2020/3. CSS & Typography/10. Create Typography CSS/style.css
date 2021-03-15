@@ -1,0 +1,48 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, serif;
+}
+
+hr{
+    color: 1px solid grey;
+}
+
+blockquote{
+    border-left: 3px solid rgb(221,221,221);
+    padding-left: 30px;
+    line-height: 2;
+    font-style: italic;
+}
+
+p.quote-name{
+    text-align: right;
+}
+
+table{
+    height: 100%;
+    width: 100%;
+}
+
+table, td, th{
+    border-width: 1px;
+    border-color: rgb(221,221,221);
+    border-style: solid;    
+}
+
+tr:nth-child(odd) {
+    background: rgb(241, 241, 241);
+}
+
+tr:nth-child(odd) > td {
+    background: rgb(241, 241, 241);
+}
+
+tr:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255)
+}
