@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family:  Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+h1,h2{
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+
+}
+
+h1, nav, li{
+    display: inline-block;
+}
+
+nav{
+    padding: 0 50px;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+    padding: 0 10px;
+}
