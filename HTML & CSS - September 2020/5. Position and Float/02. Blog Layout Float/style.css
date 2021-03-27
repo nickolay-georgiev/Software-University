@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    font-size-adjust: 1em;
+}
+
+header > p {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+.page-wrapper {
+    width: 80%;
+    margin : 0 auto;
+}
+
+.right {
+    float : right;
+}
+
+.left {
+    float : left;
+}
+
+.clear-float::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+img {
+    border : 2px solid black;
+    padding : 8px;
+    background: rgb(255, 255, 255);
+    display: block;
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.25)
+}
+
+img.right {
+    margin-left: 20px;
+}
+
+div.quote-div > p,
+div.quote-div > blockquote {
+    width:  50%;
+    margin : 0 auto;
+}
+
+div.quote-div > blockquote {
+    font-style: italic;
+    border-left: 2px solid #ccc;
+    padding-left: 30px;
+    font-family: Georgia, serif;
+}
+div.quote-div > blockquote > footer {
+    text-align: right;
+}
+
+div.quote-div > p {
+    padding-right: 30px;
+}
+
+img.left {
+    margin-right: 15px;
+}
+
+article {
+    width: 75%;
+    padding-right: 20px;
+}
+
+aside {
+    width : 25%;
+    padding-left: 50px;
+}
+
+a {
+    color : green;
+    text-decoration: none;
+}
