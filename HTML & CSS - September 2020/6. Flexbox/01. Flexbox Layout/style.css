@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    background: rgb(228, 228, 228);
+}
+
+section {
+    background: white;
+    margin : 5px;
+    border-radius: 5px;
+    flex: 1 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 3px 1px #5f5d5d;
+}
+
+header > section {
+    flex: 1 0 auto;
+    flex-basis: 300px;
+  
+}
+
+.main-aside {
+    display: flex;
+}
+
+.main-aside main,
+.main-aside aside {
+    flex: 1 0 auto;
+}
+
+header > section {
+    height: 100px;
+}
+
+footer > section {
+    height: 80px;
+}
+
+.main-aside section {
+    height: 300px;
+}
