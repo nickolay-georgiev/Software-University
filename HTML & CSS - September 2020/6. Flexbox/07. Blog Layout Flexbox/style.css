@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+div.page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin : 0 auto;
+}
+
+img {
+    background: rgb(255, 255, 255);
+    padding : 8px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+a {
+    color: rgb(0, 153, 0);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Georgia, serif;
+}
+
+header {
+    border-bottom: 2px solid black;
+    width : 100%;
+}
+
+header > p {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.clear-float:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.float-right {
+    float: right;
+}
+
+img.float-right {
+    margin-left : 20px;
+}
+
+.float-left {
+    float: left;
+}
+
+img.float-left {
+    margin-right: 20px;
+}
+
+article.quote {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+article.quote > p,
+article.quote > blockquote {
+    flex : 1 1 40%;
+}
+
+article.quote > blockquote {
+    font-style: italic;
+    margin-top: 0;
+    border-left : 2px solid #ccc;
+    padding-left: 30px;
+}
+
+article.quote > blockquote > footer {
+    text-align: end;
+}
+
+main {
+    width: 70%;;
+}
+
+.aside-bar {
+    margin-left : 30px;
+    padding-left : 30px;
+}
