@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div.card {
+    display:  flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    background: rgb(255, 255, 255);
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px #ccc;
+ 
+}
+
+h3,
+p {
+    padding : 0 30px;
+}
+
+p {
+    margin-top: 0;
+    padding-bottom: 30px;
+}

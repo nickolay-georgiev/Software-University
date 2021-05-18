@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section.container {
+    display: flex;
+}
+
+.first-img {
+    max-width: 100px;
+    object-fit: cover;
+}
+
+img {
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0px black;
+}
