@@ -1,0 +1,122 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        background: orange;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    html {
+        background: red;
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    html {
+        font-size: 23px;
+    }
+}
+
+body{
+    padding-left: 20rem;
+    padding-right: 20rem;
+    background-color: rgb(238, 238, 238);
+}
+
+
+.site-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h1{
+    font-family: "Georgia", serif;
+    font-size: 2.2rem;
+    line-height: 2;
+    margin: 1em 0 0.5em 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 1em 0 0.5em 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 1.5rem;
+}
+
+ol, ul, dl {
+    margin: 0 0 1.5rem 0;
+}
+
+ol, ul{
+    padding: 0;
+    margin-left: 1.5rem;
+}
+ol li, ul li{
+    list-style-position: inside;
+}
+
+ul ul{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+ul li{
+    list-style-type: square;
+}
+
+ul ul li{
+    list-style-type: disc;
+}
+
+ul ul ul li{
+    list-style-type: circle;
+}
+
+blockquote{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    float: right;
+    width: 20vw;
+    border-left: 4px solid #DDD;
+    font-style: italic;
+    margin-bottom: 0 0 1.5rem 2rem;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+blockquote.author{
+    text-align: right;
+}
+
+hr {
+    margin: 2rem 0;
+}

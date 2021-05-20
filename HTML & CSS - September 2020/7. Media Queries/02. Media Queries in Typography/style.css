@@ -1,0 +1,33 @@
+body{margin: 0}
+
+.viewport{
+    height: 100vh;
+    position: relative;
+    overflow: auto}
+
+    img{
+        padding: 0.4rem;
+        border-style: solid;
+        margin: 1.4em;
+        box-shadow:0 0 2rem grey;
+    }
+
+    .site-title {
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    header {
+        border-bottom: 4px solid rgb(0, 0, 0);
+        vertical-align: middle;
+    }
+
+    .align-right{
+        float: right;
+    }
+
+    .align-left{
+        float: left;
+    }

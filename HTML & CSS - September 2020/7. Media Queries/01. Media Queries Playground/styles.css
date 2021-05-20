@@ -1,0 +1,38 @@
+.vpwidth{
+display: none;
+}
+
+.vpheight{
+    display: none;
+}
+
+.vpaspect{
+    display: none;
+}
+
+body > p {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+body > p > span {
+    font-weight: unset;
+    color:green;
+}
+
+@media (min-aspect-ratio: 8/5) {
+    .vpaspect{
+        display: inline-block;
+    }
+  }
+@media screen and (min-width: 600px) {
+    .vpwidth {
+      display: inline-block;
+    }
+  }
+
+@media screen and (min-height: 600px) {
+    .vpheight {
+      display: inline-block;
+    }
+  }
